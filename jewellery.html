@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <title>STORE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="bi bi-list"></i></span>
+        </button>
+      <a class="navbar-brand" id="logo" href="#"><span>Y</span>OEYAR
+      </a>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">STORE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="new_arrivals_page.html">NEW ARRIVALS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="product_category_page.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              PRODUCTS
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="clothing.html">Clothing</a>
+              <a class="dropdown-item" href="jewellery.html">Jewellery</a>
+              <a class="dropdown-item" href="cosmetic.html">Cosmetics</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              SUPPORT
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="about_page.html">About Us</a>
+              <a class="dropdown-item" href="contact_page.html">Contac Us</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <a href="wishlist_page.html"><button type="button" class="btn btn-outline-dark my-2 my-sm-0 mr-2"><i class="bi bi-heart-fill"></i></button></a>
+          <a href="cart_page.html"><button type="button" class="btn btn-outline-dark my-2 my-sm-0 mr-2"><i class="bi bi-bag-check-fill"></i></button></a>
+          <a href="login.htm"><button type="button" class="btn btn-outline-dark"><i class="bi bi-person-circle"></i></button></a>
+        </form>
+      </div>
+      </div>
+    </nav>
+    <!-- /nav -->
+    <!-- logo&description -->
+    <div style="height: 320px;" class="jumbotron jumbotron-fluid" id="jumbotron">
+        <div class="container mt-5" id="">
+            <div class="d-flex flex-column align-items-center pt-4">
+                <img src="img/logo/logo.jpeg" alt="">
+                <form action="">
+                    <div class="input-group mt-3">
+                        <div class="form-outline mr-1">
+                            <input id="jumsearch" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">   
+                        </div>
+                        <button type="button" class="btn btn-dark">
+                          <i class="fas fa-search"></i>
+                        </button>
+                      </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- /logo&description -->
+
+    <!-- . -->
+       <!-- arrivals -->
+       <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <h1 id="heading1" class="display-4 text-left text-mutedd my-5"><span>Jewellery</span></h1>
+          <a id="arrow" class="pt-4" href="jewellery.html">view more <i class="bi bi-arrow-bar-right"></i></a>
+        </div>
+        <div class="row">
+          <!-- Product Card 1 -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card mb-3" id="cardhover">
+              <img class="card-img-top" src="img/jewellery/j1.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Solid Burmese</h5>
+                <p>Ruby 6.93k Gold 14 karat</p>
+                <p class="card-text justified-text"></p>
+                <div class="d-flex  mt-auto">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center mt-auto">
+                  <p class="card-text mb-0"><small class="text-muted">3.3 - Millions</small></p>
+                  <a href="product_detail_page.html"><button type="button" class="btn btn-outline-dark">Show Now</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Product Card 2 -->
+          <div class="col-md-6 col-lg-3">
+              <div class="card mb-3" id="cardhover">
+                <img class="card-img-top" src="img/jewellery/j2.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Bled Burmese</h5>
+                  <p>Ruby 8.93k Gold 12 karat</p>
+                  <p class="card-text justified-text"></p>
+                  <div class="d-flex  mt-auto">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center mt-auto">
+                    <p class="card-text mb-0"><small class="text-muted">4.3 - Millions</small></p>
+                    <a href="product_detail_page.html"><button type="button" class="btn btn-outline-dark">Show Now</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <!-- Product Card 3 -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card mb-3" id="cardhover">
+              <img class="card-img-top" src="img/jewellery/j3.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Sky Burmese</h5>
+                <p>Ruby 20.93k Gold 32 karat</p>
+                <div class="d-flex  mt-auto">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center mt-auto">
+                  <p class="card-text mb-0"><small class="text-muted">10.5 - Millions</small></p>
+                  <a href="product_detail_page.html"><button type="button" class="btn btn-outline-dark">Show Now</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- product4 -->
+          <div class="col-md-6 col-lg-3">
+              <div class="card mb-3" id="cardhover">
+                <img class="card-img-top" src="img/jewellery/j4.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Deep Burmese</h5>
+                  <p>Ruby 12.93k Gold 12 karat</p>
+                  <p class="card-text justified-text"></p>
+                  <div class="d-flex  mt-auto">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center mt-auto">
+                    <p class="card-text mb-0"><small class="text-muted">5.5 - Millions</small></p>
+                    <a href="product_detail_page.html"><button type="button" class="btn btn-outline-dark">Show Now</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <!-- /product4 -->
+          <div class="col-md-6 col-lg-3">
+              <div class="card mb-3" id="cardhover">
+                <img class="card-img-top" src="img/jewellery/j5.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Red Burmeses</h5>
+                  <p>Ruby 88.93k Gold 30 karat</p>
+                  <p class="card-text justified-text"></p>
+                  <div class="d-flex  mt-auto">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center mt-auto">
+                    <p class="card-text mb-0"><small class="text-muted"></small>20.5 - Millions</p>
+                    <a href="product_detail_page.html"><button type="button" class="btn btn-outline-dark">Show Now</button></a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- /product4 -->
+          <!-- product5 -->
+          <div class="col-md-6 col-lg-3" id="cardhover">
+              <div class="card mb-3">
+                <img class="card-img-top" src="img/jewellery/j6.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Karate Burmeses</h5>
+                  <p>Ruby 58.93k Gold 10 karat</p>
+                  <p class="card-text justified-text"></p>
+                  <div class="d-flex  mt-auto">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center mt-auto">
+                    <p class="card-text mb-0"><small class="text-muted">12.5 - Millions</small></p>
+                    <a href="product_detail_page.html"><button type="button" class="btn btn-outline-dark">Show Now</button></a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- /product5 -->
+          <!-- product6 -->
+          <div class="col-md-6 col-lg-3" id="cardhover">
+              <div class="card mb-3">
+                <img class="card-img-top" src="img/jewellery/j7.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Etcetera Burmese</h5>
+                  <p>Ruby 58.93k Gold 18 karat</p>
+                  <p class="card-text justified-text"></p>
+                  <div class="d-flex  mt-auto">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center mt-auto">
+                    <p class="card-text mb-0"><small class="text-muted">7.5 - Millions</small></p>
+                    <a href="product_detail_page.html"><button type="button" class="btn btn-outline-dark">Show Now</button></a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- /product6 -->
+          <!-- product7 -->
+          <div class="col-md-6 col-lg-3">
+              <div class="card mb-3" id="cardhover">
+                <img class="card-img-top" src="img/jewellery/j8.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">White Burmese</h5>
+                  <p>Ruby 50.53k Gold 20 karat</p>
+                  <p class="card-text justified-text"></p>
+                  <div class="d-flex  mt-auto">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center mt-auto">
+                    <p class="card-text mb-0"><small class="text-muted">$6.3 - Millions</small></p>
+                    <a href="product_detail_page.html"><button type="button" class="btn btn-outline-dark">Show Now</button></a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- /product7 -->
+        </div>
+      </div>
+      <!-- /arrivals -->
+      <!-- pager -->
+      <div class="container d-flex justify-content-end">
+          <nav aria-label="Page navigation example">
+              <ul class="pagination">
+                  <li class="page-item">
+                      <a class="page-link" href="clothing.html">Previous</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="jewellery.html">3</a></li>
+                  <li class="page-item">
+                      <a class="page-link" href="cosmetic.html">Next</a>
+                  </li>
+              </ul>
+          </nav>
+      </div>
+      <!-- /pager -->
+    <!-- ./ -->
+
+ 
+    <Footer>      
+      <div class="container my-4">
+          <footer class="text-black text-center text-lg-start border border-dark rounded p-4" style="background-color: #E6F0F2;">
+          <!-- Grid container -->
+          <div class="container p-4">
+            <!--Grid row-->
+            <div class="row mt-4">
+              <!--Grid column-->
+              <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-4">ABOUT YOEYAR</h5>
+      
+                <p>
+                  YOEYAR is dedicated to preserving and sharing the beauty of Myanmar's cultural heritage through exquisitely crafted traditional dresses.
+                </p>
+      
+                <p>
+                  We aim to celebrate and showcase the rich traditions of Myanmar through fashion, fostering a deep connection to our cultural roots.
+                </p>
+      
+                <div class="mt-4">
+                  <a href="https://www.facebook.com/" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://dribbble.com/" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-dribbble"></i></a>
+                  <a href="https://twitter.com/" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.google.com/" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-google-plus-g"></i></a>
+                </div>
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Contact Information</h5>
+                  <div class="card-body text-center">
+                    <ul class="list-group list-group-flush text-left mx-auto text-center">
+                      <li style="background-color: #E6F0F2;" class="list-group-item"><i class="fas fa-home mr-2"></i>Yangon, TC RM-209, MM</li>
+                      <li style="background-color: #E6F0F2;" class="list-group-item"><i class="fas fa-envelope mr-2"></i>yoeyar@gmail.com</li>
+                      <li style="background-color: #E6F0F2;" class="list-group-item"><i class="fas fa-phone mr-2"></i>09-957366041</li>
+                      <li style="background-color: #E6F0F2;" class="list-group-item"><i class="fas fa-print mr-2"></i>999-544-711</li>
+                    </ul>
+                  </div> 
+                </div>
+                
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-4">Opening hours</h5>
+      
+                <table class="table text-center text-black">
+                  <tbody class="fw-normal">
+                    <tr>
+                      <td>Mon - Thu:</td>
+                      <td>8am - 9pm</td>
+                    </tr>
+                    <tr>
+                      <td>Fri - Sat:</td>
+                      <td>8am - 1am</td>
+                    </tr>
+                    <tr>
+                      <td>Sunday:</td>
+                      <td>9am - 10pm</td>
+                    </tr>
+                    <tr>
+                      <td>Time Zone:</td>
+                      <td>MM - Rangon</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </div>
+          <!-- Grid container -->
+      
+          <!-- Copyright -->
+          <div class="text-center p-3">
+            <a class="text-black" href="index.html">© 2023 YOEYAR:  All Rights Reserved</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+      </div>
+    <!-- End of .container -->
+    </Footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>s

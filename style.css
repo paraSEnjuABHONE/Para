@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    /* font-family: 'Inclusive Sans', sans-serif; */
+}
+#navbar{
+    background-color: white;
+}
+
+.navbar-nav{
+    margin-left: 20px;
+}
+.nav-item {
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+    display: flex;
+}
+.nav-item .nav-link {
+  color: black;
+  margin: 0;
+}
+.nav-item .nav-link::after {
+  content: '';
+  background: black;
+  display: block;
+  width: 100%;
+  height: 3px;
+  transform-origin: left;
+  transform: scale(0);
+  transition: .5s ease-out;
+}
+.nav-item .nav-link:hover::after {
+  transform: scale(1);
+}
+#navbar form button{
+    background: black;
+    border: none;
+    color: white;
+}
+/* /nav */
+#jumbotron{
+    background-color: white;
+}
+#jumbotron h6{
+    background-color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+#jumsearch {
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+#jumsearch:hover {
+    border-radius: 10px;
+}
+#limited{
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+#limited .red{
+    color: #AE445A;
+}
+#limited .black{
+    color: #1D1A39;
+    color: ;
+}
+#limitedlist ul li{
+    color: #0E0F11;
+    font-size: 20px;
+    font-weight: 800;
+}
+#store{
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+#store .red{
+    color: #AE445A;
+}
+#store .black{
+    color: #1D1A39;
+}
+#chooseyour{
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+#chooseyour .red{
+    font-size: 60px;
+    color: #AE445A;
+    font-weight: 600;
+}
+#chooseyour .black{
+    color: #1D1A39;
+}
+/* #choosetxtt{
+    font-size: 80px;
+} */
+#chooset{
+    font-size: 20px;
+}
+.justified-text {
+    text-align: justify;
+  }
+
+#signupcard-txt{
+    color: #161616;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-weight: 800;
+    text-shadow: 0px 1px 1p black;
+}
+#singupcard-btn{
+    font-family: 'Inclusive Sans', sans-serif;
+    font-weight: 800;
+}
+.checked {
+    color: orange;
+  }
+#arrow{
+    color: #0E0F11;
+    font-size: 20px;
+}
+#choosetxtt{
+    background-color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+}
+
+#limit-e{
+  color: black;
+  margin: 0;
+}
+#limit-e::after {
+  content: '';
+  background: black;
+  display: block;
+  width: 100%;
+  height: 3px;
+  transform-origin: left;
+  transform: scale(0);
+  transition: .5s ease-out;
+}
+#limit-e:hover::after {
+  transform: scale(1);
+}
+
+
+/* body{
+    background-color: #F50057
+}
+.container{
+    height: 100vh
+}
+.card{
+    width: 100%;padding: 30px
+}
+.form{
+    padding: 20px
+}
+.form-control{
+    height: 50px;background-color: #eee
+}
+.form-control:focus
+{
+    color: #495057;
+    background-color: #fff;
+    border-color: #f50057;outline: 0;
+    box-shadow: none;
+    background-color: #eee
+}
+.inputbox{
+    margin-bottom: 15px
+}
+.register{
+    width: 200px;
+    height: 51px;
+    background-color: #f50057;
+    border-color: #f50057
+}
+.register:hover{
+    width: 200px;
+    height: 51px;
+    background-color: #f50057;
+    border-color: #f50057
+}
+.login{
+    color: #f50057;
+    text-decoration: none
+}
+.login:hover{
+    color: #f50057;
+    text-decoration: none
+}.form-check-input:checked{
+    background-color: #f50057;
+    border-color: #f50057
+} */
+
+#logo{
+    font-size: 36px;
+    font-weight: 400;
+    color: #0E0F11;
+    margin-bottom: 5px;
+   
+}
+#logo span{
+    color: black;
+}
+#heading1{
+    
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+  }
+#heading1 span{
+    color: #9F514E;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
+#heading2{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+#content{
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #0E0F11;
+}
+#cardhover {
+    transition: all 0.3s;
+}
+#cardhover:hover{
+    transform: scale(1.10);
+}
+#cardimghover {
+    max-width: 100%;
+    height: auto;
+    transition: filter 0.2s; /* Add fade effect on hover */
+  }
+#cardimghover:hover {
+    filter: brightness(80%); /* Adjust brightness on hover */
+  }
